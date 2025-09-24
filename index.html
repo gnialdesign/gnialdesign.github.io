@@ -1,16 +1,179 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Cartão Digital Interativo</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
-  <body>
-    <div id="cartao">
-      <h1>Olá, Fulano!</h1>
-      <p>Espero que esteja tudo bem com você.</p>
-      <button id="botao" onclick="mudarCor()">Clique aqui</button>
-    </div>
 
-    <script src="script.js"></script>
-  </body>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Gnial Design — Design que vende. Estratégia que conectam.</title>
+<meta content="Identidade visual, social media, impressos/encartes e estratégia digital (campanhas, consultoria e automações). Atendimento próximo, linguagem acessível e foco em resultado." name="description"/>
+<meta content="light dark" name="color-scheme"/>
+<meta content="Gnial Design — Design que vende. Estratégia que conecta." property="og:title"/>
+<meta content="Identidade visual, social media, impressos/encartes e estratégia digital." property="og:description"/>
+<meta content="website" property="og:type"/>
+<meta content="#0C56B5" name="theme-color"/>
+
+<link href="style.css" rel="stylesheet"/></head>
+<body>
+<a class="kbd" href="#conteudo" onfocus="this.style.left='12px'" style="position:absolute; left:-9999px">Pular para o conteúdo</a>
+<header>
+<div aria-label="Cabeçalho e navegação principal" class="container nav">
+<div aria-label="Marca Gnial Design" class="brand">
+<span aria-hidden="true" class="brand-dot"></span>
+<span>Gnial <span style="color:var(--brand-blue)">Design</span></span>
+</div>
+<nav aria-label="Navegação">
+<ul>
+<li><a href="#servicos">Serviços</a></li>
+<li><a href="#portfolio">Portfólio</a></li>
+<li><a href="#sobre">Sobre</a></li>
+<li><a class="btn secondary" href="https://wa.me/5528999823698" rel="noopener" target="_blank">Falar no WhatsApp</a></li>
+</ul>
+</nav>
+</div>
+</header>
+<main id="conteudo">
+<!-- HERO -->
+<section aria-label="Seção inicial" class="hero section">
+<div class="container inner">
+<div>
+<span class="tag">Design + Estratégia</span>
+<h1>Design que <span style="color:var(--brand-blue)">vende</span>. Estratégia que <span style="background:linear-gradient(90deg,var(--brand-yellow),#ffe07a); padding:0 .25rem; border-radius:8px">conecta</span>.</h1>
+<p>Criamos identidades visuais, peças para redes sociais, impressos/encartes, unimos campanhas, consultoria e automações para transformar público em cliente — com linguagem clara e pé no chão. <b>Que funcionam</b>.</p>
+<div style="display:flex; gap:10px; flex-wrap:wrap; margin:14px 0 0">
+<a class="btn primary" href="#servicos">Ver serviços</a>
+<a class="btn secondary" href="#portfolio">Ver portfólio</a>
+</div>
+</div>
+<aside aria-label="Diferenciais" class="hero-card">
+<h3>O que você ganha na prática</h3>
+<div class="hero-points">
+<div class="pill">🎯 <span>Identidade que posiciona</span></div>
+<div class="pill">📈 <span>Posts e encartes que convertem</span></div>
+<div class="pill">🧭 <span>Estrategia simples de implementar</span></div>
+<div class="pill">⚙️ <span>Automação para não perder lead</span></div>
+
+</section>
+<!-- SERVIÇOS -->
+<section class="section container" id="servicos">
+<div class="section-head">
+<h2>Serviços</h2>
+<a class="btn secondary" href="https://wa.me/5528999823698" rel="noopener" target="_blank">Pedir orçamento</a>
+</div>
+<div class="grid services">
+<article aria-label="Design Gráfico" class="service-col reveal">
+<div class="kicker">Design Gráfico</div>
+<h3>Identidade, social media e impressos</h3>
+<p class="muted">Visual limpo, hierarquia tipográfica e harmonia azul + amarelo. Tudo pronto para uso em <b>rede social e impressão</b>.</p>
+<ul class="list" role="list">
+<li><span class="check">✓</span> Identidade visual (logotipo, paleta, tipografia, kit social)</li>
+<li><span class="check">✓</span> Social media (templates, pacotes mensais, kits de campanha)</li>
+<li><span class="check">✓</span> Impressos/encartes (A4/A3, jornal, flyer, catálogo)</li>
+</ul>
+</article>
+<article aria-label="Estratégia Digital" class="service-col reveal">
+<div class="kicker">Estratégia Digital</div>
+<h3>Campanhas, consultoria e automações</h3>
+<p class="muted">Funil enxuto: oferta clara, criativos consistentes e <b>automatização</b> no WhatsApp/e-mail para não perder venda.</p>
+<ul class="list" role="list">
+<li><span class="check">✓</span> Planejamento de campanha e calendário</li>
+<li><span class="check">✓</span> Consultoria pontual ou recorrente</li>
+<li><span class="check">✓</span> Automação leve (captura e follow-up)</li>
+</ul>
+</article>
+</div>
+</section>
+<!-- PORTFÓLIO / CASES -->
+<section class="section container" id="portfolio">
+<div class="section-head">
+<h2>Portfólio / Cases</h2>
+<p class="muted">Alguns exemplos</p>
+</div>
+<div class="portfolio-grid">
+<article aria-label="Case 1" class="card reveal">
+<div aria-hidden="true" class="shot"></div>
+<div class="caption">Identidade — Marca Local</div>
+</article>
+<article aria-label="Case 2" class="card reveal">
+<div class="shot"></div>
+<div class="caption">Encarte A3 — Supermercado</div>
+</article>
+<article aria-label="Case 3" class="card reveal">
+<div class="shot"></div>
+<div class="caption">Social Media — Calendário Mensal</div>
+</article>
+<article aria-label="Case 4" class="card reveal">
+<div class="shot"></div>
+<div class="caption">Campanha — Captação de Leads</div>
+</article>
+<article aria-label="Case 5" class="card reveal">
+<div class="shot"></div>
+<div class="caption">Manual de Marca — Kit Social</div>
+</article>
+<article aria-label="Case 6" class="card reveal">
+<div class="shot"></div>
+<div class="caption">Impressos — Catálogo de Produtos</div>
+</article>
+</div>
+</section>
+<!-- SOBRE -->
+<section class="section container" id="sobre">
+<div class="about">
+<div class="reveal">
+<div aria-hidden="true" class="avatar"></div>
+</div>
+<div class="reveal">
+<h2>Sobre nós</h2>
+<p>Trabalhamos há <b>mais de 6 anos</b>, com foco em identidade, social media e impressos. <b>Trabalhando também</b> na parte de estratégia digital — campanhas, consultoria e automações — para que a comunicação não pare no visual.</p>
+<p>Atendimento em linguagem simples, entrega de arquivos prontos para seu uso diário e acompanhamento nos primeiros passos das campanhas para ajustar o que for preciso.</p>
+</div>
+</div>
+</section>
+<!-- CTA FINAL -->
+<section aria-label="Contato" class="section container">
+<div class="cta reveal">
+<div>
+<h2>Vamos tirar sua ideia do papel?</h2>
+<p class="muted">Manda um oi e nos conte em que estágio você está.</p>
+</div>
+<a aria-label="Abrir conversa no WhatsApp" class="btn primary" href="https://wa.me/55SEU_NUMERO?text=Olá%2C%20quero%20conversar%20sobre%20um%20projeto" rel="noopener" target="_blank">Falar no WhatsApp</a>
+</div>
+<p class="muted" style="margin-top:10px">Preferir formulário? <a href="#" onclick="document.getElementById('contato-form').showModal(); return false;">Abrir formulário</a></p>
+</section>
+<dialog id="contato-form" style="border:none; border-radius:16px; padding:0; max-width:min(560px, 92vw); box-shadow:var(--shadow-2)">
+<form method="dialog" style="padding:18px 18px 12px; background:var(--white)">
+<h3 style="margin-top:0">Envie uma mensagem</h3>
+<div class="grid" style="grid-template-columns:1fr 1fr">
+<label>Nome<br/><input name="nome" required="" style="width:100%; padding:.7rem .8rem; border-radius:10px; border:1px solid #d9e1f5"/></label>
+<label>WhatsApp<br/><input name="zap" required="" style="width:100%; padding:.7rem .8rem; border-radius:10px; border:1px solid #d9e1f5"/></label>
+<label style="grid-column:1/-1">Mensagem<br/><textarea name="msg" required="" rows="4" style="width:100%; padding:.7rem .8rem; border-radius:10px; border:1px solid #d9e1f5"></textarea></label>
+</div>
+<div style="display:flex; gap:10px; justify-content:flex-end; margin-top:8px">
+<button class="btn" value="cancel">Fechar</button>
+<button class="btn primary" value="enviar">Enviar</button>
+</div>
+<p class="muted" style="margin:.6rem 0 0; font-size:.9rem">Este formulário é demonstrativo. Conecte a um serviço de e‑mail/automação.</p>
+</form>
+</dialog>
+</main>
+<footer>
+<div class="container" style="display:flex; flex-wrap:wrap; gap:10px; align-items:center; justify-content:space-between">
+<small>© <span id="y"></span> Gnial Design — Todos os direitos reservados.</small>
+<small class="muted">Feito com contraste alto e foco em legibilidade.</small>
+</div>
+</footer>
+
+<!--
+    ⚙️ COMO APLICAR RÁPIDO (checklist):
+    1) Troque 55SEU_NUMERO pelo seu número do WhatsApp (formato internacional): 55DDDNUMERO.
+    2) Substitua os blocos do portfólio (.card > .shot/.caption) pelos seus mockups.
+    3) Ajuste título/descrição no <head> para SEO local (ex.: “Designer em Irupi/Caparaó”).
+    4) Se preferir, mova as cores para outras variáveis e use #0C56B5 como primária.
+
+    🧠 Gestalt aplicada aqui:
+    - Proximidade: cards e listas agrupados em caixas com respiro.
+    - Contraste: azul predominante vs. branco; amarelo em CTA/destaques; tipografia forte.
+    - Hierarquia: tamanhos/títulos diferentes e espaçamento vertical consistente.
+    - Continuidade: grid responsivo e micro‑animações que guiam o olhar.
+  -->
+<script src="script.js"></script></body>
 </html>
